@@ -1,12 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hPg6U8MY)
-# COE2SH4-PPA3Template
-Project Preparation Activity 3
+# Snake Game (C++)
 
-You must watch the briefing video and read through the manual to engage in the development activities.
+Classic Snake implemented in C++ using Object-Oriented Programming.
 
+## Architecture
 
-Section: [Insert your lab section]
+* **`Game`**: Runs the main loop, handles input, and manages game states.
+* **`Snake`**: Tracks body coordinates, movement, growth, and self-collision.
+* **`Food`**: Generates random spawn positions outside the snake's body.
+* **`Board`**: Renders the grid, entities, and score.
+## Controls
 
-MacID: [Insert your macID here]
-
-StudentID: [Insert your numerical student ID here]
+* **Move**: `W` `A` `S` `D` or Arrow Keys
+* **Pause**: `P`
+* **Quit**: `Q` / `Esc`
